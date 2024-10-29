@@ -13,42 +13,42 @@ export const SliderByType = () => {
             <CarouselContent>
                 <CarouselItem className="md:basis-1/2 lg:basis-1/4">
                 <div className="flex flex-col gap-y-4 items-center text-center">
-                    <Image src={'/images/electrician.webp'} alt="electrician" sizes="100vw" width={0} height={0} className="w-full h-full rounded" />
+                    <Image src={'/images/electrician.webp'} alt="electrician" sizes="100vw" width={0} height={0} className="w-full h-full rounded aspect-square" />
                     <span className="text-lg font-bold text-blue-site">Electricians</span>
                 </div>
                 </CarouselItem>
 
                 <CarouselItem className="md:basis-1/2 lg:basis-1/4">
                 <div className="flex flex-col gap-y-4 items-center text-center">
-                    <Image src={'/images/general-contractor.webp'} alt="electrician" sizes="100vw" width={0} height={0} className="w-full h-full rounded" />
+                    <Image src={'/images/general-contractor.webp'} alt="electrician" sizes="100vw" width={0} height={0} className="w-full h-full rounded aspect-square" />
                     <span className="text-lg font-bold text-blue-site">General Contractors</span>
                 </div>
                 </CarouselItem>
 
                 <CarouselItem className="md:basis-1/2 lg:basis-1/4">
                 <div className="flex flex-col gap-y-4 items-center text-center">
-                    <Image src={'/images/electrician.webp'} alt="electrician" sizes="100vw" width={0} height={0} className="w-full h-full rounded" />
+                    <Image src={'/images/electrician.webp'} alt="electrician" sizes="100vw" width={0} height={0} className="w-full h-full rounded aspect-square" />
                     <span className="text-lg font-bold text-blue-site">Electricians</span>
                 </div>
                 </CarouselItem>
 
                 <CarouselItem className="md:basis-1/2 lg:basis-1/4">
                 <div className="flex flex-col gap-y-4 items-center text-center">
-                    <Image src={'/images/general-contractor.webp'} alt="electrician" sizes="100vw" width={0} height={0} className="w-full h-full rounded" />
+                    <Image src={'/images/general-contractor.webp'} alt="electrician" sizes="100vw" width={0} height={0} className="w-full h-full rounded aspect-square" />
                     <span className="text-lg font-bold text-blue-site">General Contractors</span>
                 </div>
                 </CarouselItem>
 
                 <CarouselItem className="md:basis-1/2 lg:basis-1/4">
                 <div className="flex flex-col gap-y-4 items-center text-center">
-                    <Image src={'/images/electrician.webp'} alt="electrician" sizes="100vw" width={0} height={0} className="w-full h-full rounded" />
+                    <Image src={'/images/electrician.webp'} alt="electrician" sizes="100vw" width={0} height={0} className="w-full h-full rounded aspect-square" />
                     <span className="text-lg font-bold text-blue-site">Electricians</span>
                 </div>
                 </CarouselItem>
 
                 <CarouselItem className="md:basis-1/2 lg:basis-1/4">
                 <div className="flex flex-col gap-y-4 items-center text-center">
-                    <Image src={'/images/general-contractor.webp'} alt="electrician" sizes="100vw" width={0} height={0} className="w-full h-full rounded" />
+                    <Image src={'/images/general-contractor.webp'} alt="electrician" sizes="100vw" width={0} height={0} className="w-full h-full rounded aspect-square" />
                     <span className="text-lg font-bold text-blue-site">General Contractors</span>
                 </div>
                 </CarouselItem>

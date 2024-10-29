@@ -5,7 +5,7 @@ export const CardFromOurExperts = () => {
         <div className="w-full bg-white h-full flex flex-col gap-y-6 rounded">
             <div className="relative overflow-hidden rounded">
                 <Link href={'/pressure-washing-vs-diy-which-one-wins-the-battle'} title="pressure-washing-vs-diy-which-one-wins-the-battle">
-                    <Image src={'/images/from-our-experts/blog10.webp'} alt="blog08" sizes="100vw" width={0} height={0} className="w-full h-full rounded hover:scale-125 transition-transform duration-500" />
+                    <Image src={'/images/from-our-experts/blog10.webp'} alt="blog08" sizes="100vw" width={0} height={0} className="w-full h-full rounded hover:scale-125 transition-transform duration-500 aspect-[16/10]" />
                 </Link>
                 <Link className="absolute bottom-0 left-0 flex items-center p-2 gap-x-1 bg-yellow-site text-slate-100 rounded-tr rounded-bl" href={'/category/home-cleaning/'}>
                     <svg width={16} height={16} fill="#f1f5f9" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 96C0 60.7 28.7 32 64 32l448 0c35.3 0 64 28.7 64 64l0 320c0 35.3-28.7 64-64 64L64 480c-35.3 0-64-28.7-64-64L0 96zM128 288a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm32-128a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM128 384a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm96-248c-13.3 0-24 10.7-24 24s10.7 24 24 24l224 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-224 0zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24l224 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-224 0zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24l224 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-224 0z" /></svg>
