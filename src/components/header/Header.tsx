@@ -26,7 +26,7 @@ export const Header = () => {
             <div className="bg-white w-full flex items-center border-b-2 min-h-24">
                 <div className="w-full container mx-auto max-w-7xl px-8 flex items-center justify-between">
                     <Link href={'/'} title="Home page">
-                        <Image src={'/images/hsd-logo.webp'} alt="Logo hsd" width={250} height={60} />
+                        <Image priority src={'/images/hsd-logo.webp'} alt="Logo hsd" width={250} height={60} />
                     </Link>
                     <div className="flex items-center gap-x-20">
                         <NavLinks />
