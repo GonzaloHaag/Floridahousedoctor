@@ -1,4 +1,4 @@
-import { Container, Footer, PreFooter, SectionBgResources, SliderFaqs, SliderFeaturedProfessionals } from "@/components";
+import { Container, Footer, PreFooter, SectionBgResources, SliderFaqs } from "@/components";
 
 
 const labelsItems = [
