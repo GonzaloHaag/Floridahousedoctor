@@ -3,7 +3,7 @@ import { CardFromOurExperts, Container, Footer, Pagination, PreFooter, SliderBlo
 export default function BlogPage() {
     return (
         <div className="w-full flex flex-col">
-            <section className="flex flex-col items-center justify-center bg-[url('/images/hsd-bg05.webp')] w-full min-h-[50dvh]">
+            <section className="flex flex-col items-center justify-center bg-[url('/images/hsd-bg05.webp')] w-full min-h-[50dvh] py-10">
                 <Container>
                     <div className="flex flex-col">
                         <div className="flex flex-col items-center text-center gap-y-6 text-slate-100">
@@ -21,17 +21,17 @@ export default function BlogPage() {
                 </Container>
             </section>
             <Container>
-                <section className="bg-bg-gray-section w-full py-10 grid grid-cols-3 gap-x-20 items-start">
-                    <div className="grid grid-cols-2 gap-6 col-span-2">
+                <section className="bg-bg-gray-section w-full py-10 grid grid-cols-1 md:grid-cols-3 gap-x-20 gap-y-10 items-start">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:col-span-2">
                         <CardFromOurExperts />
                         <CardFromOurExperts />
                         <CardFromOurExperts />
                         <CardFromOurExperts />
-                        <div className="flex items-center justify-center w-full col-span-2">
+                        <div className="flex items-center justify-center w-full md:col-span-2">
                             <Pagination />
                         </div>
                     </div>
-                    <div className="col-span-1 flex flex-col gap-y-6 text-center items-center">
+                    <div className="md:col-span-1 flex flex-col gap-y-6 text-center items-center">
                         <h2 className="text-blue-site font-bold text-xl">Featured Professionals</h2>
                         <SliderBlog />
                     </div>

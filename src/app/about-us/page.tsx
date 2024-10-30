@@ -8,13 +8,13 @@ export default function AboutUsPage() {
             <SectionBgResources title="About Us" text="We’re a dedicated team committed to connecting individuals with top-tier home improvement services. With a deep understanding of the importance of finding the right provider, we’ve crafted a user-friendly directory that encompasses a comprehensive range of home improvement professionals and resources." />
             <div className="w-full bg-bg-gray-section py-12">
                 <Container>
-                    <div className="grid grid-cols-3 gap-x-6">
+                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-6 gap-y-6">
                         <div className="col-span-2 flex flex-col gap-y-4">
-                            <h2 className="text-3xl font-bold text-blue-site">A Friendly Guide to Home Improvement</h2>
+                            <h2 className="text-3xl text-center lg:text-start font-bold text-blue-site">A Friendly Guide to Home Improvement</h2>
                             <p className="text-lg">
                                 Looking for the right home improvement professional should feel reassuring, not overwhelming. That’s precisely what we aim to offer – a user-friendly platform that streamlines the process of finding the right home improvement providers and services. Whether you’re planning a renovation, seeking routine maintenance, or tackling a specific project, our directory is your guide to finding the best in home improvement. We pride ourselves on delivering a seamless user experience that enables you to make well-informed decisions for your home.
                             </p>
-                            <div className="grid grid-cols-2 gap-x-10">
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-4">
                                 <div className="flex flex-col gap-y-4">
                                     <div className="flex items-center gap-x-4">
                                         <svg width={40} height={40} fill="#E6A424" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l32 0L96 32 64 32zm64 0l0 448 320 0 0-448L128 32zM512 480c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64l-32 0 0 448 32 0zM256 176c0-8.8 7.2-16 16-16l32 0c8.8 0 16 7.2 16 16l0 48 48 0c8.8 0 16 7.2 16 16l0 32c0 8.8-7.2 16-16 16l-48 0 0 48c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-48-48 0c-8.8 0-16-7.2-16-16l0-32c0-8.8 7.2-16 16-16l48 0 0-48z" /></svg>
@@ -53,23 +53,23 @@ export default function AboutUsPage() {
                             </Link>
                         </div>
                         <div className="col-span-1">
-                            <Image src={'/images/hsd-img01.webp'} alt="hsd" sizes="100vw" width={0} height={0} className="w-full h-full aspect-video rounded" />
+                            <Image src={'/images/hsd-img01.webp'} alt="hsd" sizes="100vw" width={0} height={0} className="w-full h-full aspect-square rounded object-cover" />
                         </div>
                     </div>
                 </Container>
             </div>
             <div className="w-full bg-bg-gray-section py-12">
                 <Container>
-                    <div className="grid grid-cols-3 gap-x-10">
-                        <div className="col-span-1">
-                            <Image src={'/images/hsd-img02.webp'} alt="hsd" sizes="100vw" width={0} height={0} className="w-full h-full aspect-video rounded" />
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-x-10 gap-y-4">
+                        <div className="md:col-span-1">
+                            <Image src={'/images/hsd-img02.webp'} alt="hsd" sizes="100vw" width={0} height={0} className="w-full h-full aspect-square rounded object-cover" />
                         </div>
-                        <div className="col-span-2 flex flex-col gap-y-4">
+                        <div className="md:col-span-2 flex flex-col gap-y-4">
                             <h2 className="text-3xl font-bold text-blue-site text-pretty">Boost Your Home Improvement Business’s Visibility with Us</h2>
                             <p className="text-lg">
                                 In the dynamic home improvement landscape, an online presence is essential for any professional or business. Our platform provides a valuable opportunity not only to highlight your services but also to engage with homeowners seeking quality improvements. We are committed to amplifying your visibility, increasing your client base, and enhancing your professional standing.
                             </p>
-                            <div className="grid grid-cols-2 gap-x-10">
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-6">
                                 <div className="flex flex-col gap-y-4">
                                     <div className="flex items-center gap-x-4">
                                         <svg width={40} height={40} fill="#E6A424" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M57.7 193l9.4 16.4c8.3 14.5 21.9 25.2 38 29.8L163 255.7c17.2 4.9 29 20.6 29 38.5l0 39.9c0 11 6.2 21 16 25.9s16 14.9 16 25.9l0 39c0 15.6 14.9 26.9 29.9 22.6c16.1-4.6 28.6-17.5 32.7-33.8l2.8-11.2c4.2-16.9 15.2-31.4 30.3-40l8.1-4.6c15-8.5 24.2-24.5 24.2-41.7l0-8.3c0-12.7-5.1-24.9-14.1-33.9l-3.9-3.9c-9-9-21.2-14.1-33.9-14.1L257 256c-11.1 0-22.1-2.9-31.8-8.4l-34.5-19.7c-4.3-2.5-7.6-6.5-9.2-11.2c-3.2-9.6 1.1-20 10.2-24.5l5.9-3c6.6-3.3 14.3-3.9 21.3-1.5l23.2 7.7c8.2 2.7 17.2-.4 21.9-7.5c4.7-7 4.2-16.3-1.2-22.8l-13.6-16.3c-10-12-9.9-29.5 .3-41.3l15.7-18.3c8.8-10.3 10.2-25 3.5-36.7l-2.4-4.2c-3.5-.2-6.9-.3-10.4-.3C163.1 48 84.4 108.9 57.7 193zM464 256c0-36.8-9.6-71.4-26.4-101.5L412 164.8c-15.7 6.3-23.8 23.8-18.5 39.8l16.9 50.7c3.5 10.4 12 18.3 22.6 20.9l29.1 7.3c1.2-9 1.8-18.2 1.8-27.5zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z" /></svg>

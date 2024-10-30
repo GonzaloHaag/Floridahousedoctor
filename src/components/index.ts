@@ -23,3 +23,4 @@ export { SliderByService } from './professional/SliderByService';
 export { SliderByCity } from './professional/SliderByCity';
 export { SliderBlog } from './blog/SliderBlog';
 export { SectionBgResources } from './resources/SectionBgResources';
+export { SliderFaqs } from './faqs/SliderFaqs';

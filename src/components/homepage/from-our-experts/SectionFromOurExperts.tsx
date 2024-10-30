@@ -14,7 +14,7 @@ export const SectionFromOurExperts = () => {
             title="From Our Experts to Your Screen"
             text="Discover practical advice and expert insights on all things home improvement. Our seasoned professionals share their knowledge to help you tackle projects with confidence and achieve the best results for your home."
           />
-          <div className="grid grid-cols-3 gap-x-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-6">
             <CardFromOurExperts />
             <CardFromOurExperts />
             <CardFromOurExperts />

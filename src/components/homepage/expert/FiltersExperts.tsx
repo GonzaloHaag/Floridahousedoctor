@@ -2,7 +2,7 @@ import { Select, SelectContent, SelectGroup, SelectItem, SelectTrigger, SelectVa
 
 export const FiltersExperts = () => {
     return (
-        <div className="grid grid-cols-4 items-center gap-x-10">
+        <div className="grid grid-cols-1 md:grid-cols-4 items-center gap-x-10 gap-y-6">
             <Select>
                 <SelectTrigger className="w-full">
                     <SelectValue placeholder="All Business Highlights" />

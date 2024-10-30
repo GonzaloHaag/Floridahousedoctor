@@ -15,8 +15,8 @@ export const SectionGetting = () => {
                         title="For Getting Everything Done Right"
                         text="Easily find and connect with top-rated professionals to ensure all your home improvement projects are completed to perfection. Your go-to directory for trusted services" />
 
-                    <div className="flex gap-x-8 items-center min-h-">
-                        <div className="bg-blue-site w-[20rem] h-full flex flex-col gap-y-4 items-start justify-center min-h-[20rem] px-6 rounded-tl rounded-bl">
+                    <div className="flex flex-col sm:flex-row gap-x-8 gap-y-6 items-center">
+                        <div className="bg-blue-site w-full sm:w-[20rem] flex flex-col gap-y-4 items-start justify-center py-6 sm:min-h-[20rem] px-6 rounded sm:rounded-tr-none sm:rounded-br-none">
                             <div className="flex gap-x-2 items-center">
                                 <div className="bg-white p-2 rounded">
                                     <svg width={30} height={30} fill="#174996" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304l91.4 0C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7L29.7 512C13.3 512 0 498.7 0 482.3zM609.3 512l-137.8 0c5.4-9.4 8.6-20.3 8.6-32l0-8c0-60.7-27.1-115.2-69.8-151.8c2.4-.1 4.7-.2 7.1-.2l61.4 0C567.8 320 640 392.2 640 481.3c0 17-13.8 30.7-30.7 30.7zM432 256c-31 0-59-12.6-79.3-32.9C372.4 196.5 384 163.6 384 128c0-26.8-6.6-52.1-18.3-74.3C384.3 40.1 407.2 32 432 32c61.9 0 112 50.1 112 112s-50.1 112-112 112z" /></svg>
@@ -32,8 +32,8 @@ export const SectionGetting = () => {
                     </div>
 
 
-                    <div className="flex gap-x-8 items-center min-h-">
-                        <div className="bg-blue-site w-[20rem] h-full flex flex-col gap-y-4 items-start justify-center min-h-[20rem] px-6 rounded-tl rounded-bl">
+                    <div className="flex flex-col sm:flex-row gap-x-8 gap-y-6 items-center">
+                        <div className="bg-blue-site w-full sm:w-[20rem] flex flex-col gap-y-4 items-start justify-center py-6 sm:min-h-[20rem] px-6 rounded sm:rounded-tr-none sm:rounded-br-none">
                             <div className="flex gap-x-2 items-center">
                                 <div className="bg-white p-2 rounded">
                                     <svg width={30} height={30} fill="#174996" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c.2 35.5-28.5 64.3-64 64.3l-320.4 0c-35.3 0-64-28.7-64-64l0-160.4-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L416 100.7 416 64c0-17.7 14.3-32 32-32l32 0c17.7 0 32 14.3 32 32l0 121 52.8 46.4c8 7 12 15 11 24zM248 192c-13.3 0-24 10.7-24 24l0 80c0 13.3 10.7 24 24 24l80 0c13.3 0 24-10.7 24-24l0-80c0-13.3-10.7-24-24-24l-80 0z" /></svg>
