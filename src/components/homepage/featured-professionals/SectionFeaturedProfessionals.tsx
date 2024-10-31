@@ -7,7 +7,7 @@ interface Props {
 }
 export const SectionFeaturedProfessionals = ({ className } : Props ) => {
     return (
-        <section className={`w-full bg-inherit ${className}`}>
+        <section className={`w-full bg-inherit ${className} bg-bg-gray-section py-10`}>
             <Container>
                 <div className="bg-inherit flex flex-col gap-y-6">
                     <TitleIconText iconSvg={ <svg width={30} height={30} fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">

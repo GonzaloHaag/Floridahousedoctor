@@ -74,7 +74,7 @@ export default function ProfessionalPage() {
                     </div>
                 </Container>
             </section>
-            <section className="w-full bg-inherit py-10">
+            <section className="w-full bg-inherit py-10 bg-bg-gray-section">
                 <Container>
                     <div className="flex flex-col gap-y-6">
                     <div className="grid grid-cols-1 gap-y-6 md:hidden">

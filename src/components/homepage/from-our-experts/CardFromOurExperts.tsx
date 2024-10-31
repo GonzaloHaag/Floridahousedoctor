@@ -12,7 +12,7 @@ export const CardFromOurExperts = () => {
                     <span className="font-bold">Home Cleaning</span>
                 </Link>
             </div>
-            <div className="flex flex-col gap-y-4 w-full px-4">
+            <div className="flex flex-col gap-y-4 w-full px-4 pb-4">
                 <h4 className="text-xl text-blue-site font-extrabold text-pretty">Pressure Washing vs. DIY: Which One Wins the Battle?</h4>
                 <div className="flex items-center justify-between">
                     <div className="flex items-center gap-x-1">

@@ -22,8 +22,9 @@ export default function FaqsPage() {
     return (
         <div className="flex flex-col bg-inherit">
             <SectionBgResources title="FAQs" text="Welcome to our FAQs page, where we provide clear, concise answers to common questions about our listing, our directory services, and general inquiries. Explore this resource to gain better insights and understanding, and if you have a question that isn’t covered, feel free to reach out to us directly." />
+            <div className="w-full bg-bg-gray-section">
             <Container>
-                <section className="w-full py-12 bg-bg-gray-section grid grid-cols-1 lg:grid-cols-3 gap-x-20">
+                <section className="w-full py-12 bg-inherit grid grid-cols-1 lg:grid-cols-3 gap-x-20">
                     <div className="lg:col-span-2 flex flex-col gap-y-6">
                         <h2 className="text-blue-site text-lg font-bold">How do I find a home service professional in my area?</h2>
                         <p>
@@ -63,6 +64,7 @@ export default function FaqsPage() {
                     </div>
                 </section>
             </Container>
+            </div>
             <PreFooter />
             <Footer />
         </div>

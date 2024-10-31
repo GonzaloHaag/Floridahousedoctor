@@ -20,8 +20,9 @@ export default function BlogPage() {
                     </div>
                 </Container>
             </section>
+            <div className="w-full bg-bg-gray-section">
             <Container>
-                <section className="bg-bg-gray-section w-full py-10 grid grid-cols-1 md:grid-cols-3 gap-x-20 gap-y-10 items-start">
+                <section className="bg-inherit w-full py-10 grid grid-cols-1 md:grid-cols-3 gap-x-20 gap-y-10 items-start">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:col-span-2">
                         <CardFromOurExperts />
                         <CardFromOurExperts />
@@ -37,6 +38,7 @@ export default function BlogPage() {
                     </div>
                 </section>
             </Container>
+            </div>
             <PreFooter />
             <Footer />
         </div>
