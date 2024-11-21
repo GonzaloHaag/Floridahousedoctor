@@ -76,7 +76,7 @@ export const NavLinks = () => {
         <nav className="flex items-center gap-x-6 text-base font-normal">
             {
                 navItems.map((navItem) => (
-                    <div key={navItem.id} className="relative py-3 group">
+                    <div key={navItem.id} className="relative py-3 group cursor-pointer">
                         <Link href={navItem.href} title={navItem.title} className="group flex items-center gap-x-2 hover:text-slate-600 transition-colors duration-300">
                             {navItem.title}
                             {
