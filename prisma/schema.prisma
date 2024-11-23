@@ -12,44 +12,44 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
-model Plumbers {
-id Int @id @default(autoincrement())
-Keyword String? 
-Name String?
-Full_Address String?
-Address_1 String?
-Address_2 String?
-Address_3 String?
-Address_4 String?
-Address_5 String?
-Website String?
-Phone String?
-Email String?
-Facebook String?
-Twitter String?
-Instagram String?
-Edit_Links String?
-Category String?
-Rating Float?
-Reviews String?
-Image_URL String?
-Pricing String?
-Amenities String?
-Description String?
-Summary String?
-Monday String?
-Tuesday String?
-Wednesday String?
-Thursday String?
-Friday String?
-Saturday String?
-Sunday String?
-Services String?
-Located_in String?
-Attributes String?
-Logo String?
-Providers_Urls String?
-URL String?
-SStatus Boolean?
 
+model Plumbers {
+  id             Int      @id @default(autoincrement())
+  Keyword        String?
+  Name           String?
+  Full_Address   String?
+  Address_1      String?
+  Address_2      String?
+  Address_3      String?
+  Address_4      String?
+  Address_5      String?
+  Website        String?
+  Phone          String?
+  Email          String?
+  Facebook       String?
+  Twitter        String?
+  Instagram      String?
+  Edit_Links     String?
+  Category       String?
+  Rating         Float?
+  Reviews        String?
+  Image_URL      String?
+  Pricing        String?
+  Amenities      String?
+  Description    String?
+  Summary        String?
+  Monday         String?
+  Tuesday        String?
+  Wednesday      String?
+  Thursday       String?
+  Friday         String?
+  Saturday       String?
+  Sunday         String?
+  Services       String?
+  Located_in     String?
+  Attributes     String?
+  Logo           String?
+  Providers_Urls String?
+  URL            String?
+  SStatus        Boolean?
 }
