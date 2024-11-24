@@ -87,7 +87,7 @@ export const NavLinks = () => {
                         </Link>
                         {
                             navItem.submenu && (
-                                <ul className="absolute top-12 -left-2 transform opacity-0 invisible group-hover:opacity-100 group-hover:visible bg-yellow-site flex flex-col items-start px-4 gap-y-2 py-5 min-w-[15rem] rounded text-slate-100 transition-all duration-300">
+                                <ul className="absolute top-12 -left-2 transform opacity-0 invisible group-hover:opacity-100 group-hover:visible bg-yellow-site flex flex-col items-start px-4 gap-y-2 py-5 min-w-[15rem] rounded text-slate-100 transition-all duration-300 z-10">
                                     <svg width={25} height={25} fill="#e6a424" className="absolute -top-3 left-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M182.6 137.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-9.2 9.2-11.9 22.9-6.9 34.9s16.6 19.8 29.6 19.8l256 0c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-128-128z" /></svg>
                                     {
                                         navItem.submenu.map((itemSubmenu) => (

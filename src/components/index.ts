@@ -5,6 +5,7 @@ export { SliderFeaturedProfessionals } from './homepage/featured-professionals/S
 export { SliderFeaturedProfessionalsSkeleton } from './homepage/featured-professionals/SliderFeaturedProfessionalsSkeleton';
 export { CardSliderProfessional } from './homepage/featured-professionals/CardSliderProfessional';
 export { SectionFaqs } from './professional/by_name/SectionFaqs';
+export { SectionRating } from './professional/by_name/SectionRating';
 export { TitleIconText } from './homepage/title-icon-text/TitleIconText';
 export { SectionGetting } from './homepage/getting/SectionGetting';
 export { SliderGetting } from './homepage/getting/SliderGetting';

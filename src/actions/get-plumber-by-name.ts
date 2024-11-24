@@ -4,7 +4,7 @@ import prisma from "@/lib/prisma";
 
 export const getProfessionalByName = async(name:string) => {
     try {
-        
+        await new Promise((resolve) => setTimeout(resolve,3000));
         const plumber = await prisma.plumbers.findFirst({
             where : {
                 Name : name
