@@ -3,8 +3,6 @@ import Link from "next/link"
 
 export const Footer = () => {
     return (
-
-
         <footer className="bg-[#091d3c] bg-[url('/images/hsd-bg03.webp')] bg-cover bg-center pt-12 text-slate-100">
             <div className="w-full container mx-auto max-w-7xl px-8">
                 <div className="grid grid-cols-1 gap-8 px-4 py-6 lg:py-8 sm:grid-cols-2 lg:grid-cols-4">

@@ -1,4 +1,4 @@
-import { getProfessionalByName } from "@/actions";
+import { getPlumbers, getProfessionalByName } from "@/actions";
 import { Container, SectionFaqs, SectionRating } from "@/components";
 import { Metadata } from "next";
 import Image from "next/image";
@@ -7,6 +7,19 @@ import { redirect } from "next/navigation";
 
 interface Props {
     params: Promise<{ name: string }>
+}
+// Genera los parámetros estáticos
+export async function generateStaticParams() {
+    const respuesta = await getPlumbers();
+    const { plumbers } = respuesta;
+
+    if(!plumbers) {
+        return []
+    }
+
+    return plumbers.map((plumber) => ({
+        name: plumber.Name,
+    }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
