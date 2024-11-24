@@ -3,6 +3,7 @@ import { Container, SectionFaqs, SectionRating } from "@/components";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { redirect } from "next/navigation";
 
 interface Props {
     params: Promise<{ name: string }>
@@ -33,6 +34,9 @@ export default async function ProfessionalByNamePage({ params }: Props) {
     }
 
     const { plumber } = respuesta;
+    if(!plumber) {
+        redirect('/not-found');
+    }
 
     return (
         <div className="flex flex-col w-full bg-inherit">
