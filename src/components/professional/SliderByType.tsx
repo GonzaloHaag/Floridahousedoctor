@@ -8,7 +8,7 @@ export const SliderByType = () => {
                 align: "start",
                 loop: true
             }}
-            className="w-full"
+            className="w-full px-2"
         >
             <CarouselContent>
                 <CarouselItem className="md:basis-1/2 lg:basis-1/4">

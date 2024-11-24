@@ -31,11 +31,11 @@ export const CardSliderProfessional = ({ plumber_imageUrl,plumber_rating,plumber
                 <h3 className="text-blue-site font-semibold text-xl min-h-16 flex items-center">{plumber_name ? plumber_name : 'Prime Plumbing'}</h3>
                 <div className="flex items-center gap-x-2 font-normal">
                     <svg width={12} height={12} fill="#174996" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M16 64C16 28.7 44.7 0 80 0L304 0c35.3 0 64 28.7 64 64l0 384c0 35.3-28.7 64-64 64L80 512c-35.3 0-64-28.7-64-64L16 64zM224 448a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM304 64L80 64l0 320 224 0 0-320z" /></svg>
-                    <span>{plumber_phone ? plumber_phone : 'No phone'}</span>
+                    <span className="text-sm md:text-base">{plumber_phone ? plumber_phone : 'No phone'}</span>
                 </div>
                 <div className="flex items-center gap-x-2 font-normal">
                     <svg width={12} height={12} fill="#174996" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" /></svg>
-                    <span className="min-h-12 flex items-center">{plumber_address ? plumber_address : 'No address'}</span>
+                    <span className="min-h-12 flex items-center text-sm md:text-base">{plumber_address ? plumber_address : 'No address'}</span>
                 </div>
 
                 <Link href={`/professional/${plumber_name}`} title={plumber_name ? plumber_name : 'plumber'} className="flex items-center gap-x-2 justify-center my-4 py-2 text-blue-site font-medium group-hover:bg-blue-site group-hover:text-slate-100 transition-colors duration-500 rounded">

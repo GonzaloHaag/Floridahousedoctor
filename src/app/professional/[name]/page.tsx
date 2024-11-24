@@ -121,7 +121,7 @@ export default async function ProfessionalByNamePage({ params }: Props) {
                                 </div>
                             </div>
                         </div>
-                        <div className="flex flex-wrap justify-center lg:justify-start items-center gap-x-4 mt-6">
+                        <div className="flex flex-wrap justify-center lg:justify-start items-center gap-4 mt-6">
                             <Link href={'#overview'} title="Overview" className="bg-white flex items-center justify-center text-center py-2 px-4 rounded text-blue-site hover:bg-blue-site hover:text-slate-100 transition-colors duration-300">
                                 Overview
                             </Link>

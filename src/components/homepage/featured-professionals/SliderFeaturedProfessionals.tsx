@@ -15,7 +15,7 @@ export const SliderFeaturedProfessionals = async () => {
         align: "start",
         loop: true,
       }}
-      className="w-full relative"
+      className="w-full relative px-2"
     >
       <CarouselContent>
         {

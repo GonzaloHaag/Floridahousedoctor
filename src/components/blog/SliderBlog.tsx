@@ -15,7 +15,7 @@ export const SliderBlog = async () => {
                 align: 'start',
                 loop: true
             }}
-            className="w-full">
+            className="w-full px-2">
             <CarouselContent>
                 {
                     plumbers?.map((plumber) => (
