@@ -27,3 +27,6 @@ export { SliderByCity } from './professional/SliderByCity';
 export { SliderBlog } from './blog/SliderBlog';
 export { SectionBgResources } from './resources/SectionBgResources';
 export { SliderFaqs } from './faqs/SliderFaqs';
+export { LinkListYourBusinness } from './list-your-businness/LinkListYourBusinness';
+export { ItemWorks } from './list-your-businness/ItemWorks';
+export { ItemsOurSolutions } from './list-your-businness/ItemsOurSolutions';

@@ -11,7 +11,6 @@ const roboto = Roboto({
 export const metadata: Metadata = {
   title: "Home Services Directory |",
   description: "Services Directory Description",
-
 };
 
 export default function RootLayout({
@@ -20,9 +19,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${roboto.className} antialiased`}>
+    <html lang="en" className={`${roboto.className} antialiased scroll-smooth`}>
       <body
-        className="antialiased min-h-dvh bg-bg-gray-section scroll-smooth"
+        className="antialiased min-h-dvh bg-bg-gray-section"
       >
         <Header />
         {children}

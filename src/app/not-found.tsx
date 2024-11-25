@@ -7,7 +7,7 @@ export default function NotFound() {
             <div className="bg-yellow-site px-2 text-sm rounded rotate-12 absolute">
                 Page Not Found
             </div>
-            <button className="mt-5">
+            <Link href={'/'} title="Home" className="mt-5">
                 <div
                     className="relative inline-block text-sm font-medium text-slate-900 group active:text-orange-500 focus:outline-none focus:ring"
                 >
@@ -16,10 +16,10 @@ export default function NotFound() {
                     ></span>
 
                     <span className="relative block px-8 py-3 bg-slate-100 border border-current">
-                        <Link href={'/'} title="Home">Go Home</Link>
+                       Go Home
                     </span>
                 </div>
-            </button>
+            </Link>
         </main>
     )
 }

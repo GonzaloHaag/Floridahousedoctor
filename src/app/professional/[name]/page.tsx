@@ -1,5 +1,5 @@
 import { getPlumbers, getProfessionalByName } from "@/actions";
-import { Container, SectionFaqs, SectionRating } from "@/components";
+import { Container, Footer, SectionFaqs, SectionRating } from "@/components";
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -315,8 +315,8 @@ export default async function ProfessionalByNamePage({ params }: Props) {
                         </div>
                     </div>
                 </Container>
+                <Footer />
             </section>
-
         </div>
     );
 }
